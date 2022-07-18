@@ -1,0 +1,9 @@
+.socialSharing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.button-container{
+    width: 35%;
+}
