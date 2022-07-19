@@ -24,8 +24,10 @@ html, body {
 .dropper {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  grid-area: box1;
+  grid-area: box2;
   padding: 5% 5% 2% 5%;
+    height: 90vh;
+      max-height: 90vh;
 }
 
 button {
@@ -37,12 +39,16 @@ button {
   display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 0.5fr 2fr 0.5fr;
-      grid-template-areas: "con1" "con2" "con3";
+      grid-template-areas: "con1"
+ "con2"
+ "con3";
   /* background-color: lightblue; */
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: box2;
+  grid-area: box3;
   padding: 5% 13%;
+  height: 90vh;
+  max-height: 90vh;
 }
 
 .userInfo {
@@ -75,10 +81,13 @@ button {
 }
 
 .footer {
-  -ms-grid-row: 2;
+  -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
-  grid-area: box3;
+  grid-area: box1;
+  height: 10vh;
+  max-height: 10vh;
+  background-color: #16BAC5;
 }
 
 #root {
@@ -92,7 +101,8 @@ main {
       grid-template-columns: 2fr 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "box1 box2" "box3 box3";
+      grid-template-areas: "box1 box1"
+ "box2 box3";
   height: 100%;
 }
 
@@ -104,7 +114,9 @@ main {
         grid-template-columns: 1fr;
     -ms-grid-rows: 0.1fr 1.5fr 0.2fr;
         grid-template-rows: 0.1fr 1.5fr 0.2fr;
-        grid-template-areas: "box2" "box1" "box3";
+        grid-template-areas: "box1""box3"
+ "box2"
+ ;
     height: 100vh;
   }
   .share-info {
@@ -112,7 +124,8 @@ main {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 4fr 0.5fr;
         grid-template-rows: 4fr 0.5fr;
-        grid-template-areas: "con1 con2" "con3 con3";
+        grid-template-areas: "con1 con2"
+ "con3 con3";
     grid-gap: 2%;
     margin-bottom: 50px;
     padding: 5%;
@@ -124,7 +137,8 @@ main {
         grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 4fr 0.5fr;
         grid-template-rows: 4fr 0.5fr;
-        grid-template-areas: "con1 con1" "con3 con3" !important;
+        grid-template-areas: "con1 con1"
+ "con3 con3" !important;
     grid-gap: 2%;
     margin-bottom: 90px !important;
     padding: 5%;

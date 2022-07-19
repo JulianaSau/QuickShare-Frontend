@@ -7,7 +7,7 @@ const Avatar = ({index,children,nameID,...other}) => {
   return (
     <div id={nameID} name={index} className="peer-avatar ">
     <div className="flex-col-center">
-        <img src={UserInfo?UserInfo.path:UserSvg} />
+        <img src={UserInfo?UserInfo.path:UserSvg} alt="user-avatar" />
         <div className="userInfo">
         <div>{UserInfo?children:null}</div>
         <h2>{UserInfo?UserInfo.name:null}</h2>

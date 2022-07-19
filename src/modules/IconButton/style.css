@@ -3,18 +3,20 @@
 }
 
 .button-primary{
-  background-color: #EDEDED;
+  background-color: #16BAC5;
   padding: 4%;
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
   border: none;
   margin: 10px 0;
   font-weight: 400;
+  color: white;
   font-size: calc(8px + 1vmin);
 }
 
 .button-secondary{
   padding: 2%;
+  color:white;
   width: 50%;
   border-radius: 10px;
   border: none;

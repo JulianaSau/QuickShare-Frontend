@@ -36,10 +36,10 @@
     flex-direction: column;
     visibility: visible;
     border : solid white 1px;
-    border-radius: 20px;
+    border-radius: 0px;
 }
 .stackTop .qrCode,.stackTop  .qrText{
-    filter: blur(10px);
+    filter: blur(20px);
 }
 .qrContainer {
     display: flex;
@@ -47,7 +47,7 @@
     justify-content: space-evenly;
     align-items: center;
     border : solid black 1px;
-    border-radius: 20px;
+    border-radius: 0px;
     padding: calc(3px + 2vmin);
     height: 100%;
 }
