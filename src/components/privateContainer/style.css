@@ -1,11 +1,6 @@
 .qrBox {
     position: relative;
 }
-
-.private-room-btn {
-    width: 200px!important;
-}
-
 #hiddeneye{ 
     position: absolute;
     z-index: 10;

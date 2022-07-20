@@ -7,24 +7,15 @@
 }
 .logo{
     font-size: 1.5em;
-    /* margin : 5px; */
+    margin : 5px;
     width: 5%;
-    font-weight: bold;
 }
 .footerContainer{
         display: flex;
         padding : 0.5% 5%;
-        justify-content: space-between;
+        justify-content: start;
         align-items: center;
-        margin: 0px;
-}
-.userInfo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: right;
-    align-self: right;
-    margin: 0 0 0 10px;
+        margin: 5px;
 }
 span {
     margin: 5px;
@@ -35,11 +26,6 @@ a{
 }
 p{
     text-align: center;
-}
-
-.copyright{
-margin: 20px;
-    font-size: 0.7em;
 }
 
 @media only screen and (max-width: 425px) {

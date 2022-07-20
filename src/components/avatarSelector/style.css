@@ -1,7 +1,7 @@
 .selector-wrapper {
-  border: 0.5px solid #C7C7C7;
-  border-radius: 15px;
-  padding: 3% 0.2% 3% 0.2%;
+  border: 3px solid #C7C7C7;
+  border-radius: 10px;
+  padding: 1.5% 1.5% 1.5% 1.5%;
   margin: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,7 +16,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  width: 29%;
+  width: 40%;
   max-width: 230px;
 }
 
