@@ -12,9 +12,9 @@ function App() {
       <MainPublicProvider>
         <AnimatePresence exitBeforeEnter>
           <Switch>
-            <Route path="/" exact index component={Home} />
+            <Route path="/" exact component={Home} />
             <Route path="/room/:roomID" component={Room} />
-            <Route path="/public" component={PublicRoom} />
+            <Route path="/public" exact component={PublicRoom} />
           </Switch>
         </AnimatePresence>
       </MainPublicProvider>
