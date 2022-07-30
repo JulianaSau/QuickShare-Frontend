@@ -1,12 +1,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/veghfile/frontend/graphs/commit-activity) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://veghfile.github.io/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/) [![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://veghfile.github.io/)
 
 # QuickShare - A simple & fast file sharing web app
-<p align="center">
-  <a href="https://openode.io">
-    <img width="50px" src="https://pbs.twimg.com/profile_images/1011301358300028928/j9DKNzoW_400x400.jpg">
-  </a>
-<a href="https://www.openode.io/" style="display:flex;justify-content-center;align-items:center;padding:15px">Front-end sponsored and hosted by opeNode.io</a>
-</p>
 
 Quickshare is a file sharing progressive web app(PWA) that allows users to send files between multiple devices.
 It works similar to the SHAREit or Google Files app but uses web technology to complete the installation process
