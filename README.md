@@ -44,7 +44,7 @@ This folder is used to store the static files such as images, fonts, and JavaScr
 Build process is setup using NPM run build. It builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
 
 ## Contributing
-Thanks for contributing to Vegh! Make sure to **Fork** this repository into your account before making any commits. Then use the following commands to set up the project
+Thanks for contributing to QuickShare! Make sure to **Fork** this repository into your account before making any commits. Then use the following commands to set up the project
 ### Frontend
 ```bash
 git clone https://github.com/QuickShare-Frontend.git
