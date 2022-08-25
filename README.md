@@ -86,7 +86,7 @@ git push origin my-branch
 ```
 
 This is a good time, to open a pull request in this repository with the changes you have made. Make sure you open a pull request to merge to `staging` branch and not the `master` branch directly.
-## Running Vegh in production
+## Running QuickShare in production
 
 ### Building the frontend
 ```bash
